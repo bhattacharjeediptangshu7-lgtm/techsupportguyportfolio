@@ -1,0 +1,107 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Tech Support Guy</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #333;
+            color: #fff;
+            transition: background-color 0.5s ease;
+        }
+        .container {
+            max-width: 1200px;
+            margin: auto;
+            padding: 20px;
+            background-color: #444;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            transition: transform 0.3s ease;
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .header h1 {
+            color: #fff;
+            font-size: 36px;
+            margin: 0;
+        }
+        .content {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 400px;
+        }
+        .card {
+            background-color: #555;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+            transition: transform 0.3s ease;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+        }
+        .card h2 {
+            color: #fff;
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+        .card p {
+            color: #ccc;
+            font-size: 16px;
+        }
+        .cta {
+            background-color: #ff5733;
+            color: #fff;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        .cta:hover {
+            background-color: #e74c3c;
+        }
+        @media (max-width: 768px) {
+            .content {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Tech Support Guy</h1>
+        </div>
+        <div class="content">
+            <div class="card">
+                <h2>Download Resume</h2>
+                <p>Click here to download my resume.</p>
+                <a href="#" class="cta">Download Now</a>
+            </div>
+            <div class="card">
+                <h2>Contact Me</h2>
+                <p>Email: techsupportguy@example.com</p>
+                <a href="#" class="cta">Send Email</a>
+            </div>
+            <div class="card">
+                <h2>Contribute to GitHub</h2>
+                <p>Click here to contribute to my GitHub repository.</p>
+                <a href="#" class="cta">Contribute Now</a>
+            </div>
+            <div class="card">
+                <h2>Help with Research</h2>
+                <p>Donate to support my research efforts.</p>
+                <a href="#" class="cta">Donate Now</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+```
